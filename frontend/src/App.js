@@ -3,6 +3,7 @@ import './App.css';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           </p>
         </Container>
       </Jumbotron>
+      <NavBar/>
      
     </div>
   );
