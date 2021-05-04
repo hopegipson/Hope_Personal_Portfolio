@@ -9,6 +9,8 @@ import NavBar from './components/NavBar'
 function App() {
   return (
     <div className="App">
+      <NavBar/>
+
       <Jumbotron fluid>
         <Container>
          <h1>Fluid jumbotron</h1>
@@ -18,7 +20,6 @@ function App() {
           </p>
         </Container>
       </Jumbotron>
-      <NavBar/>
      
     </div>
   );
