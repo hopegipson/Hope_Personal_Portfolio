@@ -3,6 +3,7 @@ import './App.css';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import NavBar from './components/NavBar'
+import YoutubeEmbed from './components/YoutubeEmbed';
 
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
             its parent.
           </p>
         </Container>
+      </Jumbotron>
+      <Jumbotron>
+        <YoutubeEmbed embedId="rokGy0huYEA"/>
+
       </Jumbotron>
 
     </div>
