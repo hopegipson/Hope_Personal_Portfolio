@@ -45,7 +45,7 @@ class NavBar extends Component {
                   <NavDropdown.Item href="#action/3.2">Standard</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">Premium</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Purchase on Fiverr</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.4">Compare</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav className="navtwo">

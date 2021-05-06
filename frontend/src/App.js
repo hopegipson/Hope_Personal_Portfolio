@@ -13,6 +13,12 @@ function App() {
     <div className="App">
       <NavBar1/>
       <Jumbotron fluid className="headingjumbo">
+      </Jumbotron>
+      <main className="content">
+          <YoutubeDescription/>
+        <YoutubeEmbed embedId="rokGy0huYEA"/>
+        <GigsContainer/>
+        <Jumbotron fluid>
         <Container>
          <h1>Fluid jumbotron</h1>
           <p>
@@ -20,17 +26,7 @@ function App() {
             its parent.
           </p>
         </Container>
-      </Jumbotron>
-      <main className="content">
-        <div className="Youtubedesc">
-          <YoutubeDescription/>
-        </div>
-      <div className = "Youtube">
-        <YoutubeEmbed embedId="rokGy0huYEA"/>
-        </div>
-        <GigsContainer/>
-        <Jumbotron></Jumbotron>
-      </main>
+      </Jumbotron>      </main>
 
 
     </div>
