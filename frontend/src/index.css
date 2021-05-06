@@ -10698,8 +10698,11 @@ legend {
 }
 
 .TableContainer{
+  background-color: #101111;
+  margin-top: 100px;
+  margin-bottom: 100px;
   position: relative;
-  left: 17%;
+  left: 16%;
 
   width: 70%;
 }

@@ -5,8 +5,15 @@ class GigsContainer extends Component {
     render(){
         return(
             <div className="TableContainer"> 
-            <Table responsive="sm">
+            <Table striped  hover responsive="sm">
     <thead>
+    <tr>
+        <th></th>
+        <th><img src="https://www.musikalessons.com/blog/wp-content/uploads/2016/03/audio-engineering-mic.jpg" height="100px"></img></th>
+        <th><img src="https://www.musikalessons.com/blog/wp-content/uploads/2016/03/audio-engineering-mic.jpg" height="100px"></img></th>
+        <th><img src="https://www.musikalessons.com/blog/wp-content/uploads/2016/03/audio-engineering-mic.jpg" height="100px"></img></th>
+
+      </tr>
       <tr>
         <th></th>
         <th><h4>$20</h4></th>
@@ -15,7 +22,6 @@ class GigsContainer extends Component {
 
       </tr>
       <tr>
-        
         <th></th>
         <th>BASIC MIX MASTER PACKAGE</th>
         <th>STANDARD MIX MASTER PACKAGE</th>
@@ -54,6 +60,24 @@ class GigsContainer extends Component {
         <td>X</td>
         <td>✓</td>
         <td>✓</td>
+      </tr>
+      <tr>
+        <th>Noise reduction (Cleaning breaths, hiss)</th>
+        <td>X</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <th>Melodyne</th>
+        <td>X</td>
+        <td>X</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <th></th>
+        <th>BUY NOW BUTTON</th>
+        <th>BUY NOW BUTTON</th>
+        <th>BUY NOW BUTTON</th>
       </tr>
     
     </tbody>
