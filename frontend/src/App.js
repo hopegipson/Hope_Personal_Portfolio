@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavBar1/>
-      <Jumbotron fluid>
+      <Jumbotron fluid className="headingjumbo">
         <Container>
          <h1>Fluid jumbotron</h1>
           <p>
