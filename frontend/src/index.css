@@ -10619,3 +10619,54 @@ legend {
   width: 100%;
   position: absolute;
 }
+
+.navone {
+  left: 36%;
+  position: absolute;
+}
+
+.navtwo{
+  left: 90%;
+  position: absolute;
+}
+
+.navtop{
+  width: 100%;
+  min-height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .7s ease-in;
+  height: 80px;
+  z-index: 1;
+
+}
+
+.content{
+  width: 96%;
+  margin:2rem 2% 0 2%;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.box{
+  width:80%;
+  margin:2rem 10% 0 10%;
+  height:100vh;
+  background-color:plum;
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo img{
+  width: 50px;
+}
+.navigation{
+}
+
+.Youtube{
+  
+}

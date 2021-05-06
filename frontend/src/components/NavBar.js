@@ -9,15 +9,37 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 
 
 class NavBar extends Component {
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll  = () =>  {
+    if (window.scrollY > 20) {
+      document.querySelector(".navtop").className = "navtop navbar navbar-expand-lg navbar-dark bg-dark scrolled"
+    } else {
+      document.querySelector(".navtop").className = "navtop navbar navbar-expand-lg navbar-dark bg-dark";
+    }
+  }
+
     render(){
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Hope Gipson</Navbar.Brand>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navtop">
+            <Navbar.Brand href="#home">Nerd Milk Studios</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link href="#features">About</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav className="mr-auto navone">
+                <Nav.Link href="#features">About Me</Nav.Link>
+                <Nav.Link href="#pricing">Packages</Nav.Link>
+                <Nav.Link href="#pricing">Samples</Nav.Link>
+                <Nav.Link href="#pricing">FAQ</Nav.Link>
+                <Nav.Link href="#pricing">Reviews</Nav.Link>
+                <Nav.Link href="#pricing">Contact</Nav.Link>
+
                 <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -26,11 +48,9 @@ class NavBar extends Component {
                   <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
-              <Nav>
-                <Nav.Link href="#reviews">Reviews</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                  Contact
-                </Nav.Link>
+              <Nav className="navtwo">
+                <Nav.Link href="#reviews">Instagram</Nav.Link>
+                <Nav.Link eventKey={2} href="#memes"> Fiverr</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
