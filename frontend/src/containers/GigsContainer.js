@@ -5,7 +5,7 @@ class GigsContainer extends Component {
     render(){
         return(
             <div className="TableContainer"> 
-            <Table striped  hover responsive="sm">
+            <Table striped hover responsive="sm">
     <thead>
     <tr>
         <th></th>

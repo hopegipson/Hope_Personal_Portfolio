@@ -33,19 +33,19 @@ class NavBar extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto navone">
-                <Nav.Link href="#features">About Me</Nav.Link>
-                <Nav.Link href="#pricing">Packages</Nav.Link>
+                <Nav.Link href="#features">About Us</Nav.Link>
+                <Nav.Link href="#features">Meet The Team</Nav.Link>
                 <Nav.Link href="#pricing">Samples</Nav.Link>
                 <Nav.Link href="#pricing">FAQ</Nav.Link>
                 <Nav.Link href="#pricing">Reviews</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
 
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown title="Packages" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">Basic</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">Standard</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Premium</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.4">Purchase on Fiverr</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav className="navtwo">
