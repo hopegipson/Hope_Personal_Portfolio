@@ -10643,8 +10643,7 @@ legend {
 }
 
 .content{
-  width: 96%;
-  margin:2rem 2% 0 2%;
+  width: 100%;
   max-width: 100%;
   box-sizing: border-box;
   min-height: 100vh;
@@ -10668,9 +10667,9 @@ legend {
 .Youtube{
   margin-top: 100px;
   margin-bottom: 100px;
-  left: 5%;
+  left: 3%;
   position: relative;
-  width: 46%;
+  width: 44%;
   display: inline-block;
 
 }
@@ -10696,4 +10695,11 @@ legend {
 .title{
   position: absolute;
   top: 150px;
+}
+
+.TableContainer{
+  position: relative;
+  left: 17%;
+
+  width: 70%;
 }

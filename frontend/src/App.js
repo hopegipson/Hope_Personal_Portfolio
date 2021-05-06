@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container'
 import NavBar1 from './components/NavBar'
 import YoutubeEmbed from './components/YoutubeEmbed';
 import YoutubeDescription from './components/YoutubeDescription';
+import GigsContainer from './containers/GigsContainer';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <div className = "Youtube">
         <YoutubeEmbed embedId="rokGy0huYEA"/>
         </div>
+        <GigsContainer/>
         <Jumbotron></Jumbotron>
       </main>
 
