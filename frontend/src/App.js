@@ -4,6 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import NavBar1 from './components/NavBar'
 import YoutubeEmbed from './components/YoutubeEmbed';
+import YoutubeDescription from './components/YoutubeDescription';
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
         </Container>
       </Jumbotron>
       <main className="content">
-    
+        <div className="Youtubedesc">
+          <YoutubeDescription/>
+        </div>
       <div className = "Youtube">
         <YoutubeEmbed embedId="rokGy0huYEA"/>
         </div>
