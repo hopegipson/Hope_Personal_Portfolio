@@ -1,6 +1,5 @@
 # Hope_Personal_Portfolio
 
-<img src="https://i.imgur.com/pQPcesD.png" width="100%" /> </img>
 
 # Spotify_Clone
 
