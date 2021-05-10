@@ -21,7 +21,7 @@
 To watch a demo of the Rails Application in action you can visit:
 
 
-Blog Post with Further Explanation on Playback:
+Blog Post with Further Explanation on the website build:
 
 
 ## Prerequisites
