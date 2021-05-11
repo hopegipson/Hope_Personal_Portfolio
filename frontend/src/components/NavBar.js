@@ -49,7 +49,7 @@ class NavBar extends Component {
                 </NavDropdown>
               </Nav>
               <Nav className="navtwo">
-                <Nav.Link href="#reviews">Instagram</Nav.Link>
+                <Nav.Link href="#reviews"> Instagram</Nav.Link>
                 <Nav.Link eventKey={2} href="#memes"> Fiverr</Nav.Link>
               </Nav>
             </Navbar.Collapse>
