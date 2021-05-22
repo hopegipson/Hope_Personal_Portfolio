@@ -3,9 +3,12 @@ import React from 'react';
 
 export default function reviewsContainer() {	
 	const [reviews, setReviews] = useState([])
+	const URL = 'http://localhost:3000/'
+	const reviewsURL = URL + 'reviews'
+
 
 	useEffect(()=> {
-		fetch('http://localhost:3000/reviews')
+		fetch(reviewsURL)
 			.then(response => response.json())
 			.then(res => setState(res.data))
 		}
