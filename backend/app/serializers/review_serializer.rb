@@ -4,6 +4,6 @@ class ReviewSerializer < ActiveModel::Serializer
     end
    
     def to_serialized_json
-      @review.to_json(include: [:author, :content, :rating], :except => [:updated_at, :created_at])
+      @review.to_json(include: [:author, :content, :rating, :location], :except => [:updated_at, :created_at])
     end
   end

@@ -1,7 +1,7 @@
 class ReviewsController < ApplicationController
 
     def create
-        review = Review.create(author: review_params[:author], content: review_params[:content], rating: review_params[:rating])
+        review = Review.create(author: review_params[:author], content: review_params[:content], rating: review_params[:rating], location: review_params[:location])
         render json: ReviewSerializer.new(review).to_serialized_json
       end
 
@@ -18,6 +18,6 @@ class ReviewsController < ApplicationController
       private
 
       def review_params
-        params.require(:review_info).permit(:author, :content, :rating)
+        params.require(:review_info).permit(:author, :content, :rating, :location)
       end
 end
