@@ -1,0 +1,302 @@
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20210522044821)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "author" text, "content" text, "rating" integer, "location" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210522044821"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-05-22 05:19:01.526115"], ["updated_at", "2021-05-22 05:19:01.526115"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.4ms)[0m  [1m[32mINSERT INTO "reviews" ("author", "content", "rating", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "chingpo"], ["content", "PERFECTO!!! Wonderful working with such a professional!! NO ego involved, purely ALL ABOUT THE MUSIC!!! Helped me tremendously, gave feedback as to what issues/non issues with stems/mix...A TRUE GEM TO WORK WITH!! Will be hiring for ALL my other songs for EP/album!!! Thank you for everything!!!!"], ["rating", 5], ["location", "United States"], ["created_at", "2021-05-22 05:19:57.072079"], ["updated_at", "2021-05-22 05:19:57.072079"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("author", "content", "rating", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "ninoalejandro"], ["content", "This was an amazing experience. Such good communication and super fast delivery. Can't wait to work with you again on more projects. I was sent more than one version so I could choose what I wanted. Thanks again."], ["rating", 5], ["location", "Phillippines"], ["created_at", "2021-05-22 05:19:57.087557"], ["updated_at", "2021-05-22 05:19:57.087557"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/playlists" for ::1 at 2021-05-21 23:20:05 -0600
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/playlists"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:08 -0600
+Processing by ReviewsController#index as HTML
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/serializers/review_serializer.rb:7:in `to_serialized_json'
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.6ms | Allocations: 7433)
+
+
+  
+NoMethodError (undefined method `serializable_hash' for "chingpo":String):
+  
+app/serializers/review_serializer.rb:7:in `to_serialized_json'
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:09 -0600
+Processing by ReviewsController#index as HTML
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/serializers/review_serializer.rb:7:in `to_serialized_json'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 1685)
+
+
+  
+NoMethodError (undefined method `serializable_hash' for "chingpo":String):
+  
+app/serializers/review_serializer.rb:7:in `to_serialized_json'
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/favicon.ico" for ::1 at 2021-05-21 23:20:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:35 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 525)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+...son(include: :author, :content, :rating, :location], :except...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:36 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 517)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+...son(include: :author, :content, :rating, :location, :except ...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:36 -0600
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+...son(include: :author, :content, :rating, :location, :except ...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:37 -0600
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+...son(include: :author, :content, :rating, :location, :except ...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:49 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 525)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting ')'
+...view.to_json(include: (:author, :content, :rating, :location...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:8: syntax error, unexpected end, expecting ')'
+    end
+    ^~~):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting ')'
+app/serializers/review_serializer.rb:8: syntax error, unexpected end, expecting ')'
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting ')'
+app/serializers/review_serializer.rb:8: syntax error, unexpected end, expecting ')'
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:20:50 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 523)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting ')'
+...view.to_json(include: (:author, :content, :rating, :location...
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting ')'
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting ')'
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:22:06 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 517)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+....to_json(:include => { :author, :content, :rating, :location...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:22:06 -0600
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+....to_json(:include => { :author, :content, :rating, :location...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:22:07 -0600
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+....to_json(:include => { :author, :content, :rating, :location...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:22:08 -0600
+Processing by ReviewsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+SyntaxError (/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+....to_json(:include => { :author, :content, :rating, :location...
+...                              ^
+/Users/hopegipson/Flatiron/Hope_Personal_Portfolio/backend/app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+... => [:updated_at, :created_at])
+...                              ^):
+  
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/serializers/review_serializer.rb:7: syntax error, unexpected ',', expecting =>
+app/serializers/review_serializer.rb:7: syntax error, unexpected ')', expecting end
+app/controllers/reviews_controller.rb:10:in `index'
+Started GET "/reviews" for ::1 at 2021-05-21 23:22:37 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as HTML
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/serializers/review_serializer.rb:7:in `to_serialized_json'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 6475)
+
+
+Started GET "/reviews" for ::1 at 2021-05-21 23:22:38 -0600
+Processing by ReviewsController#index as HTML
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/serializers/review_serializer.rb:7:in `to_serialized_json'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
