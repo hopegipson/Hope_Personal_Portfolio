@@ -44,6 +44,96 @@ DATA = {
       ["vaebretts", "very experienced and fast turnaround 100% recommended can tell she has a deep passion for music that u dont see from other so called engineers, nothing else to say just wow", 5, "United States"],
       ["el_may", "Hope was lovely to work with! Very patient and extremely kind! Super quick delivery and super communicative throughout all steps of the process. Would definitely recommend!!", 5, "United Kingdom"],
       ["scoobidog", "he is a monster ! very professional, the BEST on fiverr I ever seen", 5, "Switzerland"],
+      ["the_albanian", "As always, never fails to deliver fast and on point. What more can I say, amazing person to work with. Nothing but love.", 5, "United States"],
+      ["jonnymol", "Delivered on time and sounds great!", 5, "United States"],
+      ["djdesja", "I am very impressed by the quality and speed in which Hope worked and she is clearly a top notch mix/mastering engineer! She gave me options to choose from for the final mix which really is going above and beyond and I love the quality of the final mastered file. It is radio/Spotify ready and it sounds incredible! I will definitely be coming back!", 5, "United States"],
+      ["benhill636", "An unbelievable experiance! WOW WOW WOW! If you are serious about making an amazing sound....this is the gig for you! Great communicator, great person, great sound. UNREAL!!!!", 5, "United Kingdom"],
+      ["coreygardner15", "Understanding and on point. Quick definitely recommended.", 5, "United States"],
+      ["the_albanian", "Super fast and professional. One of the best experiences I've had o fiverr. Will definitely be a return client.", 5, "United States"],
+      ["omerzadok", "great service", 4.3, "United States"],
+      ["slychapel", "This is the best engineer. Very satisfied. Not my first order. Always delivering quality!", 5, "Canada"],
+      ["aesmunanyo", "Talented, patient, kind producer! Thank you so much for your service dude", 5, "Kuwait"],
+      ["iap_101", "Always the best experience and brings out the best mix possible!", 5, "United States"],
+      ["tareefbeymusic", "nice work I love it", 5, "United States"],
+      ["gabimelad", "I can't explain how helpful she was with me, she provided a great job.", 5, "United Arab Emirates"],
+      ["martinho_cruz", "very enjoyable to work with!", 4.7, "Portugal"],
+      ["jazzytay", "She did a good job. Was willing to act on all the changes I requested and Wass super quick about it.", 5, "United Kingdom"],
+      ["trashyladrag", "My album is coming alive with all her talent... I'm so happy with this!", 5, "Canada"],
+      ["trashyladrag", "She was very understanding of my needs and a good ally in what kind of art I'm doing. Those vocals... She made them come alive! FINALLY!", 5, "Canada"],
+      ["tp5music", "Great communication, work, and service all around!", 5, "United States"],
+      ["iap_101", "Always able to meet amy needs and always improves my songs in ways that I hadn’t anticipated!", 5, "United States"],
+      ["ksjohn", "Very rapid, professional, helpful experience.", 5, "United Kingdom"],
+      ["iap_101", "Always goes the extra mile to make sure I’m satisfied with the end result! Much appreciated", 5, "United States"],
+      ["iap_101", "Absolutely the best! Always a great result :)", 5, "United States"],
+      ["cindyrella713", "Extremely professional, I will hire him for future projects without any hesitation. Thank you for everything.", 5, "United States"],
+      ["cookiegeneral", "shes a great friend and talented engineer", 5, "United States"],
+      ["ianbrieck", "Hands down the best engineer i have worked with, very pleasant fast and efficient. The song came out amazing! Will definitely be back! Thanks again!", 5, "United States"],
+      ["jermainelockett", "great job will buy again", 5, "United States"],
+      ["izzydrihem", "Was great working with this seller! delivered quickly and communication was really great!", 5, "United States"],
+      ["ntkymusic", "Just mind blown! I threw her a huge project (12 songs) and she killed it! Straight She made my music come to life and went above and beyond with it! I can not thank her enough. Just wow I highly recommend her to anyone!!!!", 5, "United States"],
+      ["andyspencer321", "This is my second time working with Hope. It was so easy and Hope made my music so much more! The project was a 5 track EP and Hoe was easy to work with, quick to response and very professional product. Thanks!", 5, "United States"],
+      ["ntkymusic", "Complete rockstar with these! Thank you so much!!!!!! If you want quality work then place your order!!!", 5, "United States"],
+      ["skytones", "Outstanding experience working with nerdmilkstudios! Couldn't be happier with the end result and product. Stellar communication throughout and super helpful, flexible, and able to provide help at every step of the way. Cannot recommend this seller enough! Very satisfied and will come back again.", 5, "United States"],
+      ["chrisnieto901", "I gave Hope a tricky task. I has some old tracks, no stems or files just audio tracks that sounded a bit dull but i wanted to make an album of. I needed them to sound radio ready and balanced with a bit of zing. Hope did all that and more. Great communication and made me feel confident every step of the way...and at a price that was hard to beat. One of the best experiences I've had with fivre.", 5, "United Kingdom"],
+      ["michaelruelas", "I can always count on nerdmllkstudios for the highest quality of service! Great communication as always! I would highly Encourage all musicians, bands or solo artists to give her a shot! you will be 100% satisfied.", 5, "United States"],
+      ["oohyeah", "Great, easy to work with. Quick work, and revised quickly according to directions. Gave me a product I was very pleased with. Would recommend!", 5, "China"],
+      ["classicrecords", "Love the results. definitely recommend to anyone needing they song mix and master.", 5, "United States"],
+      ["archiebeemtv", "all always the best", 5, "United States"],
+      ["dyehardmusic", "Very quick response to all the questions and suggestions I had. Superb final product. Highly recommend. You won't be disappointed. Professional, caring and fast!!", 5, "United States"],
+      ["iap_101", "Always a pleasure. Has a great ear to match what I’m looking for!", 5, "United States"],
+      ["classicrecords", "At first skeptical but love the result and fast turnaround time. I will definitely be coming back for more.", 5, "United States"],
+      ["nitestalker84", "I worked with Nerd Milk just recently, to master my two upcoming albums and I have to be so very persistent that, she is one of the best in the business. Her acute ear for the way the songs should sound, is phenomenal to say the least. Throughout my career as a producer, I will continue to work with her studio in order to maintain the highest level of quality of sound. The final copies of each song I send, are more than I could expect. When mastering my album, all of the levels for each song were matched up with precise perfection. My entire album will be at the same level, throughout the entirety of it. Please, do yourself a favor, always chose Nerd Milk for your mastering needs.", 5, "United States"],
+      ["kopar811", "Very helpful, thank you!!", 5, "Australia"],
+      ["jolong286", "Amazing service once again. Thank you and look forward to working with you again", 5, "United Kingdom"],
+      ["keytolife5", "", 5, "United States"],
+      ["iap_101", "Another great experience! Went above and beyond and I really appreciate it.", 5, "United States"],
+      ["dyehardmusic", "Absolutely amazing! I highly recommend nerdmilkstudios to anyone looking for a professional, fast and honest experience!! Already lining up my next project!!", 5, "United States"],
+      ["nitestalker84", "Again, I'm another satisfied customer. I can't emphasize enough on how dedicated she is! The time and effort put into everything she does, clearly shows with each time that she masters tracks for me. I have worked with her twice so far and believe me, there will be a third, fourth and fifth time as well.", 5, "United States"],
+      ["iap_101", "Great work again! I appreciate the job you’ve done and your input !!", 5, "United States"],
+      ["calebeder", "Working with them always goes smoothly and they provide thorough details on what they are doing and try to meet the requests of the buyer to the best of their ability. Looking forward to working together in the future!", 5, "United States"],
+      ["iap_101", "Thank you! This came out better than I expected (based on what I submitted haha). I appreciate the hard work and input!", 5, "United States"],
+      ["carmusewicz", "2nd time working with Nerdmilk and I couldn't be happier! Thank you!", 5, "United States"],
+      ["artisanbongh2o", "So helpful and understanding! Gave me an amazing rate, quality work, and went above and beyond. Will definitely be contracting this person again.", 5, "United States"],
+      ["bradkinn", "There are no words to describe how great it is to work with Hope, they are professional and understanding of the vision trying to be captured, they put in all the effort needed and more to get your projects where you want them to be. If you are on the fence don't be. Order now!", 5, "United States"],
+      ["danyiellespence", "Communication was great and she took the time to understand the project:)", 4.7, "United States"],
+      ["gabekubanda", "Again, awesome working with you!", 5, "United States"],
+      ["bigjano", "Definitely getting more work done in the future.", 5, "United States"],
+      ["stuartfrank2020", "Real professional attitude. A Great job done. Quick turnaround and I will be using again. Thanks", 5, "United Kingdom"],
+      ["jolong286", "Amazing service once again, thank you for help. Look forward to working with you again.", 5, "United Kingdom"],
+      ["bradkinn", "Brings every track to a professional level I would never imagine being so well priced and so fast, always knows exactly what to do on a track to make it special. professional, kind and always a joy to work with.", 5, "United States"],
+      ["likemike1212", "no I don't want to", 2.7, "United States"],
+      ["finesteinburg", "Always a great experience. Requested modifications and she fixed them with grace. Truly professional", 5, "United States"],
+      ["archiebeemtv", "like last did a realyy great job", 5, "United States"],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
