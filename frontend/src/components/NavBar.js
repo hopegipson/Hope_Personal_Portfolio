@@ -33,12 +33,12 @@ class NavBar extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto navone">
-                <Nav.Link href="#aboutus">About Us</Nav.Link>
-                <Nav.Link href="#team">Meet The Team</Nav.Link>
-                <Nav.Link href="#samples">Samples</Nav.Link>
-                <Nav.Link href="#faq">FAQ</Nav.Link>
-                <Nav.Link href="#reviews">Reviews</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="aboutus">About Us</Nav.Link>
+                <Nav.Link href="team">Meet The Team</Nav.Link>
+                <Nav.Link href="samples">Samples</Nav.Link>
+                <Nav.Link href="faq">FAQ</Nav.Link>
+                <Nav.Link href="reviews">Reviews</Nav.Link>
+                <Nav.Link href="contact">Contact</Nav.Link>
 
                 <NavDropdown title="Packages" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Basic</NavDropdown.Item>
