@@ -5,7 +5,7 @@ export default function reviewsContainer() {
 	const [reviews, setReviews] = useState([])
 
 	useEffect(()=> {
-		fetch('')
+		fetch('http://localhost:3000/reviews')
 			.then(response => response.json())
 			.then(res => setState(res.data))
 		}
