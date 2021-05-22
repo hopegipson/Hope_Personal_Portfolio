@@ -29,7 +29,7 @@ class NavBar extends Component {
     render(){
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navtop">
-            <Navbar.Brand href="#home">Nerd Milk Studios</Navbar.Brand>
+            <Navbar.Brand href="">Nerd Milk Studios</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto navone">
