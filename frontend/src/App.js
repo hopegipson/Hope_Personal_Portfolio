@@ -6,27 +6,23 @@ import NavBar1 from './components/NavBar'
 import YoutubeEmbed from './components/YoutubeEmbed';
 import YoutubeDescription from './components/YoutubeDescription';
 import GigsContainer from './containers/GigsContainer';
+import HomePage from './containers/HomePage';
 
+
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import AboutUs from './containers/AboutUs';
 
 function App() {
   return (
     <div className="App">
       <NavBar1/>
-      <Jumbotron fluid className="headingjumbo">
-      </Jumbotron>
-      <main className="content">
-          <YoutubeDescription/>
-        <YoutubeEmbed embedId="rokGy0huYEA"/>
-        <GigsContainer/>
-        <Jumbotron fluid>
-        <Container>
-         <h1>Fluid jumbotron</h1>
-          <p>
-            This is a modified jumbotron that occupies the entire horizontal space of
-            its parent.
-          </p>
-        </Container>
-      </Jumbotron>      </main>
+      <Router>
+      <Route exact path='/' render={routerProps => <HomePage/> } />
+      <Route exact path='/aboutus' render={routerProps => <AboutUs/> } />
+
+      </Router>
+
+    
 
 
     </div>
