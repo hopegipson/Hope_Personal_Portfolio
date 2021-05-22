@@ -4,6 +4,7 @@ import NavBar1 from './components/NavBar'
 import HomePage from './containers/HomePage';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import AboutUs from './containers/AboutUs';
+import TeamPage from './containers/TeamPage';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Router>
       <Route exact path='/' render={routerProps => <HomePage/> } />
       <Route exact path='/aboutus' render={routerProps => <AboutUs/> } />
+      <Route exact path='/team' render={routerProps => <TeamPage/> } />
+
 
       </Router>
 
