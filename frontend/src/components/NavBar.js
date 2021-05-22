@@ -49,8 +49,8 @@ class NavBar extends Component {
                 </NavDropdown>
               </Nav>
               <Nav className="navtwo">
-                <Nav.Link href="#reviews"> Instagram</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes"> Fiverr</Nav.Link>
+                <Nav.Link href="https://www.instagram.com/nerdmilkstudios"> <img className="sideBarIcon" src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" height="30px" alt="Instagram"></img></Nav.Link>
+                <Nav.Link eventKey={2} href="https://www.fiverr.com/nerdmilkstudios?up_rollout=true"><img className="sideBarIcon" src="https://img.apksum.com/58/com.fiverr.fiverr/3.2.2/icon.png" height="30px" alt="Fiverr"></img> </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
