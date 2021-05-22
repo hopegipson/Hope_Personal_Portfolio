@@ -5,6 +5,7 @@ import HomePage from './containers/HomePage';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import AboutUs from './containers/AboutUs';
 import TeamPage from './containers/TeamPage';
+import FAQ from './containers/FAQ';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Route exact path='/' render={routerProps => <HomePage/> } />
       <Route exact path='/aboutus' render={routerProps => <AboutUs/> } />
       <Route exact path='/team' render={routerProps => <TeamPage/> } />
+      <Route exact path='/faq' render={routerProps => <FAQ/> } />
+
 
 
       </Router>
