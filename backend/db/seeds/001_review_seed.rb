@@ -104,6 +104,14 @@ DATA = {
       #["likemike1212", "no I don't want to", 2.7, "United States"],
       ["finesteinburg", "Always a great experience. Requested modifications and she fixed them with grace. Truly professional", 5, "United States"],
       #["archiebeemtv", "like last did a realyy great job", 5, "United States"],
+      ["rellsuave5", "Did great work and really enhanced the song. Responded and delivered my work very quickly.", 5, "United States"],
+      ["gabekubanda", "Amazing yet again for the price, highly recommend!", 5, "United States"],
+      ["zatrzz", "Très réactif, il m'a envoyé plusieurs versions de ma musique pour que j'ai le choix :) Merci beaucoup !", 5, "United States"],
+      ["joonninetyfour", "Hope was a Great engineer that was just as excited about my project as I was Haha! I completely trusted that she could add to the canvas! I had no issues at all with communication and delivery. She is COMMITED to the TIMELINE. She TRULY eats breaths and sleeps studio life, the Song came out just as I imagined in UNDER 24hrs. I was surprised when it was 5am during my graveyard shift and I got a Delivery from her. She did not SLEEP! Haha! Anywho, awesome engineering, easy Communication, Speedy Delivery! She will definitely be hearing from me again.", 5, "United States"],
+      ["djdesja", "Hope did such an excellent job mixing/mastering my song. I signed up for the premium package so she tuned my vocals, fixed some timing issues and mixed/mastered my song. She sent me a couple of versions to pick from, which is going above and beyond and I appreciate that! Then she took my revisions and quickly and efficiently made the changes and the song sounds incredible! Hope does an excellent job, which is why I'm doing a whole album with her!", 5, "United States"],
+      ["groovaloo", "great as always", 5, "United States"],
+
+
 
 
 
