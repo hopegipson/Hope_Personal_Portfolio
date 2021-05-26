@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect, setState } from 'react';
 
 
-export default function reviewsContainer() {	
+export default function ReviewsContainer() {	
 	const [reviews, setReviews] = useState([])
 	const URL = 'http://localhost:3000/'
 	const reviewsURL = URL + 'reviews'
 
 
 	useEffect(()=> {
-		fetch(reviewsURL)
+		fetch('http://localhost:3000/reviews')	
 			.then(response => response.json())
-			.then(res => setState(res.data))
+			.then(res => setReviews(res))
 		}
 	, [])
 
@@ -20,11 +20,14 @@ export default function reviewsContainer() {
 		<ul>
 		{reviews.map(review => (
 			<li key={review.id}>
-			<h2> {review.text} </h2>
+			<h2> {review.content} </h2>
+			<h3> {review.rating} </h3>
+			<h3> {review.location} </h3>
 			<h3> {review.author} </h3>
 			</li>
 		))}
 		</ul>
+
 	
 		</div>
 	)

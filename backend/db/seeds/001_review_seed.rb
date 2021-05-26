@@ -110,6 +110,7 @@ DATA = {
       ["joonninetyfour", "Hope was a Great engineer that was just as excited about my project as I was Haha! I completely trusted that she could add to the canvas! I had no issues at all with communication and delivery. She is COMMITED to the TIMELINE. She TRULY eats breaths and sleeps studio life, the Song came out just as I imagined in UNDER 24hrs. I was surprised when it was 5am during my graveyard shift and I got a Delivery from her. She did not SLEEP! Haha! Anywho, awesome engineering, easy Communication, Speedy Delivery! She will definitely be hearing from me again.", 5, "United States"],
       ["djdesja", "Hope did such an excellent job mixing/mastering my song. I signed up for the premium package so she tuned my vocals, fixed some timing issues and mixed/mastered my song. She sent me a couple of versions to pick from, which is going above and beyond and I appreciate that! Then she took my revisions and quickly and efficiently made the changes and the song sounds incredible! Hope does an excellent job, which is why I'm doing a whole album with her!", 5, "United States"],
       ["groovaloo", "great as always", 5, "United States"],
+      
 
 
 
